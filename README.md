@@ -1,6 +1,6 @@
 # 
 
-LittleBot is a passive documentation bot for GitLab Merge Requests.
+Ledger (aka LittleBot) is a passive documentation bot for GitLab Merge Requests.
 It captures the why behind code changes directly from MR discussion comments and maintains a living summary card at the top of the thread.
 
 ## What problem this solves
