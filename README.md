@@ -1,6 +1,6 @@
 # 
 
-Ledger (aka LittleBot) is a passive documentation bot for GitLab Merge Requests.
+Ledger is a passive documentation bot for GitLab Merge Requests.
 It captures the why behind code changes directly from MR discussion comments and maintains a living summary card at the top of the thread.
 
 ## What problem this solves
@@ -43,7 +43,7 @@ That card becomes a living table of key technical decisions for the feature.
 
 ## Project status
 
-This repository currently contains a basic single-file template implementation in [lilbot.cpp](lilbot.cpp).
+This repository currently contains a basic single-file template implementation in [ledger.cpp](ledger.cpp).
 
 The template includes:
 - Decision extraction using regex from note text
@@ -62,13 +62,13 @@ Requirements:
 Build:
 
 ```powershell
-g++ -std=c++17 -Wall -Wextra -pedantic lilbot.cpp -o lilbot.exe
+g++ -std=c++17 -Wall -Wextra -pedantic ledger.cpp -o ledger.exe
 ```
 
 Run:
 
 ```powershell
-.\lilbot.exe
+.\ledger.exe
 ```
 
 Expected behavior:
@@ -77,7 +77,7 @@ Expected behavior:
 
 ## Current file map
 
-- [lilbot.cpp](lilbot.cpp): Bot template, extraction logic, summary rendering, and demo main.
+- [ledger.cpp](ledger.cpp): Bot template, extraction logic, summary rendering, and demo main.
 - [README.md](README.md): Project overview and setup guide.
 
 ## Next implementation steps
